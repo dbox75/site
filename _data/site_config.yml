@@ -3,6 +3,7 @@
   gtag: ''
   gtm: ''
   ga_prod: ''
+  
 breadcrumbs:
   goal:
     - path: /
