@@ -1,9 +1,12 @@
-﻿analytics:
+﻿accessible_charts: true
+accessible_tabs: true
+
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
   ga_prod: ''
-  
+bootstrap_5: false
 breadcrumbs:
   goal:
     - path: /
@@ -20,29 +23,42 @@ breadcrumbs:
       label: general.home
     - path: /news
       label: menu.updates
+      
+chartjs_3: false
+contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Korea
+  adjective: Korean
 create_goals:
+  layout: goal-by-target
   previous_next_links: false
   goals: []
 create_indicators:
+  layout: indicator
   previous_next_links: false
 create_pages:
   - filename: ''
+    folder: /
+    layout: frontpage
+    title: ''
+  - filename: ''
     folder: /goals
     layout: goals
-    title: general.goals
+    title: ''
   - filename: ''
     folder: /reporting-status
     layout: reportingstatus
-    title: status.reporting_status
+    title: ''
+  - filename: indicators.json
+    folder: /
+    layout: indicator-json
+    title: ''
   - filename: ''
     folder: /search
     layout: search
-    title: search.search
+    title: ''
 custom_css: []
 custom_js:
   - /assets/js/custom.js
@@ -54,22 +70,24 @@ date_formats: []
 disclaimer:
   phase: ''
   message: ''
-  hidden: false
+  hidden: true
 email_contacts:
   questions: test@example.com
   suggestions: test@example.com
-  functional: test@example.com
-environment: staging
+  functional: testt@example.com
+#environment: staging
+environment: ''
+favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+#  - path: /contact-us
+#    translation_key: menu.contact_us
+#  - path: 'https://twitter.com/MyTwitterAccount'
+#    translation_key: general.twitter
+#  - path: 'https://facebook.com/MyFacebookAccount'
+#    translation_key: general.facebook
+#  - path: /about/cookies-and-privacy/
+#    translation_key: menu.cookies
 frontpage_cards:
   - title: frontpage.download_all
     content: ''
@@ -94,12 +112,16 @@ frontpage_cards:
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: frontpage.heading_short
-  description: frontpage.instructions_short
+  title: Our data for Sustainable Development Goal indicators
+  description: >-
+    Click on each goal for our Sustainable Development Goal global indicator
+    data.
+frontpage_heading: ''
+frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: 'https://kostat-gi.github.io/site/assets/img/goals'
 goal_image_extension: ''
 goals_page:
   title: general.goals
@@ -110,6 +132,9 @@ graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
 graph_title_from_series: false
+header:
+  include: header-default.html
+#  include: header-menu-left-aligned.html
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
@@ -130,7 +155,7 @@ indicator_metadata_form:
   language: ''
   scopes:
     - national
-    - global
+#    - global
   exclude_fields: []
   translated: false
 indicator_tabs:
@@ -139,13 +164,12 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
-  - es
+#  - en
+  - ko
 languages_public: []
 logos: []
 map_layers: []
 map_options:
-  disaggregation_controls: false
   minZoom: 5
   maxZoom: 10
   tileURL: ''
@@ -174,38 +198,44 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 menu:
-  - path: /goals
-    translation_key: general.goals
-    dropdown: []
-  - path: /reporting-status
-    translation_key: menu.reporting_status
-    dropdown: []
   - path: /about
     translation_key: menu.about
     dropdown: []
+
+  - path: /goals
+    translation_key: general.goals
+    dropdown: []
+    
+  - path: /reporting-status
+    translation_key: menu.reporting_status
+    dropdown: []
+    
+  - path: /publications
+    translation_key: menu.publications
+    dropdown: []    
+    
   - path: /faq
     translation_key: menu.faq
-    dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
+    dropdown: []    
+    
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ''
+#  - scope: global
+#    title: indicator.global_metadata
+#    description: indicator.global_metadata_blurb
+#  - scope: sources
+#    title: indicator.sources
+#    description: ''
 news:
   category_links: false
+non_global_metadata: indicator.national_metadata
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://dbox75.github.io/data'
+remote_data_prefix: 'https://kostat-gi.github.io/data'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -220,10 +250,11 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/dbox75/data'
-repository_url_site: 'https://github.com/dbox75/site'
+repository_url_data: 'https://github.com/kostat-gi/data'
+repository_url_site: 'https://github.com/kostat-gi/site'
 search_index_boost: []
 search_index_extra_fields: []
+series_toggle: true
 site_config_form:
   enabled: true
   dropdowns: []
