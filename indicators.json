@@ -1462,11 +1462,75 @@
           "status": "notstarted"
         },
         {
+          "id": "10-1-2",
+          "title": "가족관계 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-3",
+          "title": "1인 가구 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-4",
+          "title": "유아 천 명당 보육시설 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-1-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-5",
+          "title": "조혼인율/조이혼율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-1-5",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-1-6",
+          "title": "독거노인 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-1-6",
+          "status": "notstarted"
+        },
+        {
           "id": "10-2-1",
           "title": "기초생활보장 수급자 수",
           "description": "",
           "keywords": "",
           "href": "/site/10-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-2",
+          "title": "자원봉사 참여율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-3",
+          "title": "기부율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-4",
+          "title": "사회단체 참여율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/10-2-4",
           "status": "notstarted"
         },
         {
@@ -1582,11 +1646,67 @@
           "status": "notstarted"
         },
         {
+          "id": "11-1-2",
+          "title": "녹지환경 만족도",
+          "description": "",
+          "keywords": "",
+          "href": "/site/11-1-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-1-3",
+          "title": "일반폐기물 재활용률",
+          "description": "",
+          "keywords": "",
+          "href": "/site/11-1-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-1-4",
+          "title": "재생에너지 비율",
+          "description": "",
+          "keywords": "",
+          "href": "/site/11-1-4",
+          "status": "notstarted"
+        },
+        {
           "id": "11-2-1",
           "title": "인구 천 명당 범죄 발생 건수",
           "description": "",
           "keywords": "",
           "href": "/site/11-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-2",
+          "title": "강력볌죄 발생률",
+          "description": "",
+          "keywords": "",
+          "href": "/site/11-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-3",
+          "title": "소방공무원 1인당 담당 주민 수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/11-2-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-4",
+          "title": "사회 안전에 대한 인식",
+          "description": "",
+          "keywords": "",
+          "href": "/site/11-2-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-5",
+          "title": "교통사고 발생 건수",
+          "description": "",
+          "keywords": "",
+          "href": "/site/11-2-5",
           "status": "notstarted"
         },
         {

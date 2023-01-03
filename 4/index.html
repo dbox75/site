@@ -133,7 +133,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230103021209">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230103022044">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -156,7 +156,7 @@ var translations = {
 
     </head>
 <body class="language-ko
-layout-goal
+layout-goal-by-target
 ">
 <!-- <div class="container"> -->
 
@@ -260,14 +260,14 @@ layout-goal
 
 
 <div class="container">
-  <ol class="breadcrumb">
+	<!--  <ol class="breadcrumb">
   
   <li><a href="/site/">Home</a></li>
   <li><a href="/site/goals">수도권 광역지표</a></li>
   
   
 </ol>
-
+-->
   
 </div>
 
@@ -285,158 +285,61 @@ layout-goal
 </div>
 
 
-<div id="main-content" class="container goal-indicators goal-4" role="main">
+<div id="main-content" class="container goal-indicators goal-4 goal-by-target" role="main">
+	
+<ol class="breadcrumb">
+  
+  
+  
+  
+  
+  <li><a href="/site/">Home</a></li>
+  <li><a href="/site/goals">수도권 광역지표</a></li>
+  
+    
+    <li>경쟁력 지표 - 매력</li>
+    
+
+  
+  
+  
+</ol>
+
 
   
 
 
 
+  <div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+      <h2>하위 영역</h2>
+    </div>
+    <div class="col-md-6">
+      <h2>세부 지표</h2>
+    </div>
+  </div>
+
   
   
-
     
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-1-1">
-            <span class="indicator-card-number">
-              4.1.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            인구 순유입률
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-1-2">
-            <span class="indicator-card-number">
-              4.1.2
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            유학생 수
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-2-1">
-            <span class="indicator-card-number">
-              4.2.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            주거환경 만족도
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-2-2">
-            <span class="indicator-card-number">
-              4.2.2
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            초미세먼지 대기오염도
-          </a>
-          
-
-
-
-
-
-          
-        </div>
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.1
+      </span>
+      경제적 기회
     </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
     
 
-    
-    
-    
+      
+      
+      
 
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.1.1
           
-          <a href="/site/4-2-3">
-            <span class="indicator-card-number">
-              4.2.3
-              
 
 
 
@@ -445,31 +348,27 @@ layout-goal
 </span>
 
 
-            </span>
-            인구 천 명당 의사 수
-          </a>
+        </span>
+        <a href="/site/4-1-1">
+          인구 순유입률
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.1.2
           
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-2-4">
-            <span class="indicator-card-number">
-              4.2.4
-              
 
 
 
@@ -478,229 +377,39 @@ layout-goal
 </span>
 
 
-            </span>
-            삶의 만족도
-          </a>
-          
+        </span>
+        <a href="/site/4-1-2">
+          유학생 수
+        </a>
+        
 
 
 
 
 
-          
-        </div>
+      </div>
     
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-3-1">
-            <span class="indicator-card-number">
-              4.3.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            global_indicators.4-3-1-title
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-4-1">
-            <span class="indicator-card-number">
-              4.4.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            global_indicators.4-4-1-title
-          </a>
-          
-
-
-
-
-
-          
-        </div>
     </div>
+  
     
-
-    
-    
-    
-
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-5-1">
-            <span class="indicator-card-number">
-              4.5.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            global_indicators.4-5-1-title
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-6-1">
-            <span class="indicator-card-number">
-              4.6.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            global_indicators.4-6-1-title
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-7-1">
-            <span class="indicator-card-number">
-              4.7.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            global_indicators.4-7-1-title
-          </a>
-          
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-a-1">
-            <span class="indicator-card-number">
-              4.a.1
-              
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">제공예정</span>
-</span>
-
-
-            </span>
-            global_indicators.4-a-1-title
-          </a>
-          
-
-
-
-
-
-          
-        </div>
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.2
+      </span>
+      생활ㆍ환경의 지속가능성
     </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
     
 
-    
-    
-    
+      
+      
+      
 
-    <div class="indicator-cards row no-gutters">
-        <div class="col-md-6 col-lg-3  goal-indicator">
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.2.1
           
-          <a href="/site/4-b-1">
-            <span class="indicator-card-number">
-              4.b.1
-              
 
 
 
@@ -709,31 +418,27 @@ layout-goal
 </span>
 
 
-            </span>
-            global_indicators.4-b-1-title
-          </a>
+        </span>
+        <a href="/site/4-2-1">
+          주거환경 만족도
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.2.2
           
-
-
-
-
-
-          
-        </div>
-    
-    
-
-    
-    
-    
-
-    
-        <div class="col-md-6 col-lg-3  goal-indicator">
-          
-          <a href="/site/4-c-1">
-            <span class="indicator-card-number">
-              4.c.1
-              
 
 
 
@@ -742,23 +447,406 @@ layout-goal
 </span>
 
 
-            </span>
-            global_indicators.4-c-1-title
-          </a>
+        </span>
+        <a href="/site/4-2-2">
+          초미세먼지 대기오염도
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.2.3
           
 
 
 
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
 
 
+        </span>
+        <a href="/site/4-2-3">
+          인구 천 명당 의사 수
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.2.4
           
-        </div>
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-2-4">
+          삶의 만족도
+        </a>
+        
+
+
+
+
+
+      </div>
     
+    </div>
+  
     
-	 	
-		
-			</div>
-		
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.3
+      </span>
+      global_targets.4-3-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.3.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-3-1">
+          global_indicators.4-3-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.4
+      </span>
+      global_targets.4-4-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.4.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-4-1">
+          global_indicators.4-4-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.5
+      </span>
+      global_targets.4-5-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.5.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-5-1">
+          global_indicators.4-5-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.6
+      </span>
+      global_targets.4-6-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.6.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-6-1">
+          global_indicators.4-6-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.7
+      </span>
+      global_targets.4-7-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.7.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-7-1">
+          global_indicators.4-7-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.a
+      </span>
+      global_targets.4-a-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.a.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-a-1">
+          global_indicators.4-a-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.b
+      </span>
+      global_targets.4-b-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.b.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-b-1">
+          global_indicators.4-b-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span class="indicator-card-number">
+        <label class="hidden-md hidden-lg">하위영역</label>
+        4.c
+      </span>
+      global_targets.4-c-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          4.c.1
+          
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">제공예정</span>
+</span>
+
+
+        </span>
+        <a href="/site/4-c-1">
+          global_indicators.4-c-1-title
+        </a>
+        
+
+
+
+
+
+      </div>
+    
+    </div>
+  
 </div>
 
 <footer role="contentinfo">
@@ -804,12 +892,12 @@ layout-goal
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230103021209'></script>
+<script src='/site/assets/js/sdg.js?v=20230103022044'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230103021209"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230103022044"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
