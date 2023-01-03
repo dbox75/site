@@ -28,6 +28,7 @@ chartjs_3: false
 contrast_type: single
 cookie_consent_form:
   enabled: false
+  
 country:
   name: Korea
   adjective: Korean
