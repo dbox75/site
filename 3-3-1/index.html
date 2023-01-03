@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230103010557">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230103011704">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -149,7 +149,15 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
         
 
-        
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WDLSBVZ9TJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WDLSBVZ9TJ');
+</script>
 
     </head>
 <body class="language-en
@@ -162,6 +170,7 @@ layout-indicator
 <script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","hide_menu":"Hide navigation menu","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","logo_title":"Go to homepage","show_menu":"Show navigation menu","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+
 <div id="disclaimer">
   
 <div class="container">
@@ -175,42 +184,18 @@ layout-indicator
 
 </div>
 
+
 <header role="banner" class="header-default">
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/site/" id="home">
-    <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/site/assets/img/logo.png" alt="kostat logo" />
 </a>
+
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
         
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
 
     </ul><div class="language-toggle-mobile">
         <div class="language-toggle-container">
@@ -271,32 +256,6 @@ data-event-label="high"
 
 </li>
 
-
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
 
 
 
@@ -360,32 +319,6 @@ data-event-label="high"
 
 </li>
 
-
-
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
 
 
 
@@ -488,47 +421,161 @@ data-event-label="high"
 <script>translations['data'] = {"Year":"Year"};</script>
 
 
+<!-- SNS 공유용 주소 연결 용 -->
+<script type="text/javascript" async>
+
+var url_default_ks = "https://story.kakao.com/share?url=";
+var url_default_fb = "https://www.facebook.com/sharer/sharer.php?u=";
+var url_default_tw_txt = "https://twitter.com/intent/tweet?text=";
+var url_default_tw_url = "&url=";
+var url_default_band = "http://band.us/plugin/share?body=";
+var url_default_li = "http://www.linkedin.com/cws/share?url=";
+var url_route_band = "&route=";
+var url_default_naver = "http://share.naver.com/web/shareView.nhn?url=";
+var title_default_naver = "&title=";
+
+var url_this_page = location.href;
+var title_this_page = document.title;
+
+
+var url_combine_ks = url_default_ks + url_this_page;
+var url_combine_fb = url_default_fb + url_this_page;
+var url_combine_tw = url_default_tw_txt + document.title + 
+url_default_tw_url + url_this_page;
+var url_combine_li = url_default_li + url_this_page;
+var url_combine_band = url_default_band + encodeURI(url_this_page)+
+'%0A' + encodeURI(title_this_page)+'%0A' + '&route=tistory.com';
+var url_combine_naver = url_default_naver + encodeURI(url_this_page) + 
+title_default_naver + encodeURI(title_this_page);
+	
+function addFavorite(){
+	var agent = navigator.userAgent.toLowerCase();
+	if (agent.indexOf("chrome") != -1) {
+		alert('Ctrl+D키를 눌러 북마크를 등록해주세요');
+	}else if(window.sidebar){
+		window.sidebar.addpanel(title_this_page, url_this_page,"");
+	}else if(agent.indexOf("opera") != -1){	 
+		var elem = document.createElement('a')
+		elem.setAttribute('href', url_this_page);
+		elem.setAttribute('title', title_this_page);
+		elem.setAttribute('rel','sidebar');
+		elem.click();
+	}else{
+		{window.external.AddFavorite(url_this_page, title_this_page);}
+	}
+}
+
+function copyUrl(){
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf("safari") != -1 || agent.indexOf("opera") != -1 || agent.indexOf("firefox") != -1){
+		prompt("이 글의 주소입니다. Ctrl+C를 눌러 클립보드로 복사하세요",url_this_page);
+	}else{
+		window.clipboardData.setData('Text', url_this_page);
+		alert("복사되었습니다.\n Ctrl+V를 눌러 붙여넣으세요");
+	}
+
+}
+
+  function getQrCode(){
+  return '<img class="img-fluid" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+encodeURIComponent(window.location.href) + '" />';
+}
+
+</script>
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+	<script>
+		    Kakao.init("d6418a7d8cf1378fe083ef714d661c81");
+    function sendKakao() {
+	          Kakao.Link.sendCustom({
+			          templateId: 815285,
+			          templateArgs: {
+					            title: title_this_page,
+					            description: title_this_page,
+					            url : window.location.pathname
+					          }
+			        });
+	        }
+	</script>
+
 <div class="container">
-  
+  <!--
 <ol class="breadcrumb">
+  
+  
+  
+  
   
   <li><a href="/site/">Home</a></li>
   <li><a href="/site/goals">Goals</a></li>
   
-  <li><a href="/site/3" title="Ensure healthy lives and promote well-being for all at all ages">Goal 3</a></li>
+    
+    <li> - Good health and well-being</li>
+    
+
+  
+  
+  
+</ol>
+
+-->
+  
+</div>
+<div class="heading goal-banner indicator goal-3">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-xs-3 col-md-13 col-lg-2 goal-tiles">
+                <!-- <a href="/site/3" title="View this goal's indicator list"> //-->
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png"
+                        alt="Good health and well-being - Goal 3"
+                        id="goal-3"
+                        class="goal-icon-image goal-icon-image-" />
+                <!-- </a> //-->
+            </div>
+            <div class="col-8 col-md-9 col-lg-10 indicator-details">
+            
+                <div>
+                    <h1>
+                        
+                        <span class="lead-copy2">By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span>
+                        
+                        Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="main-content" class="container goal-3" role="main">
+	
+<ol class="breadcrumb">
+  
+  
+  
+  
+  
+  <li><a href="/site/">Home</a></li>
+  <li><a href="/site/goals">Goals</a></li>
+  
+    
+    <li><a href="/site/3" title="Good health and well-being"> - Good health and well-being</a></li>  
+    
+
+  
+  
+  
+  <li class="active">By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases - Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</li>
   
 </ol>
 
 
-  
-</div>
-<div class="heading goal-banner indicator goal-3">
-  <div class="container">
-    <div class="row">
-      
-      <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/site/3" title="View this goal's indicator list">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" id="goal-3" class="goal-icon-image goal-icon-image-"/>
-        </a>
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
-      
-        <div>
-          <h1>
-            
-            Indicator 3.3.1
-            
-            <span class="lead-copy">Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</span>
-          </h1>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="main-content" class="container goal-3" role="main">
-  
-
+	<div class="text-right"> 
+<div class="btn-group" role="group">
+<button class="btn btn-default" onclick="zoomIn();"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+<button class="btn btn-default" onclick="zoomOut();"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button>
+<button class="btn btn-default" onclick="window.print();"><span class="glyphicon glyphicon-print" aria-hidden="true"></span></button>
+		</div>
+	</div>
   
 
   
@@ -536,6 +583,7 @@ data-event-label="high"
   
 
 
+  <!-- indicator-main 시작 -->
   
 
 
@@ -869,7 +917,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Indicator </th>
+        <th scope="row" style="white-space: nowrap">Indicator </th>
         <td>
           
             <p>Indicator 3.3.1: Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations </p>
@@ -885,7 +933,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Target </th>
+        <th scope="row" style="white-space: nowrap">Target </th>
         <td>
           
             <p>Target 3.3: By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</p>
@@ -901,7 +949,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metadata update </th>
+        <th scope="row" style="white-space: nowrap">Metadata update </th>
         <td>
           
             <p>2022-03-31</p>
@@ -917,7 +965,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">International organisations(s) responsible for global monitoring </th>
+        <th scope="row" style="white-space: nowrap">International organisations(s) responsible for global monitoring </th>
         <td>
           
             <p>The Joint United Nations Programme on HIV/AIDS (UNAIDS)</p>
@@ -933,7 +981,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Related indicators </th>
+        <th scope="row" style="white-space: nowrap">Related indicators </th>
         <td>
           
             <p>Achieving this target will positively impact multiple SDG goals and by reaching other goals will improve countries ability to reduce new HIV infections. The goals that are linked to HIV include goals 1 through 8, 10, 11, 16 and 17. </p>
@@ -1117,16 +1165,61 @@ data-event-label="Change to indicator.sources tab"
   </div>
 </div>
 
+  <!-- indicator-main 끝 -->
+
+	
+<!-- SNS 공유 버튼 -->
+<div class="article-share">
+	<button class="fb" title="" type="button" id="shareFacebook" onclick="window.open(url_combine_fb, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only">페이스북</span></button>
+	<button class="tw" title="" type="button" onclick="window.open(url_combine_tw, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only">트위터</span></button>
+	<button class="li" title="" type="button" onclick="window.open(url_combine_li, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only"></span></button>
+	<button class="bd" title="" type="button" onclick="window.open(url_combine_band, '', 'scrollbars=no, width=584,height=635'); return false;"><span class="sr-only">밴드</span></button>
+	<!--<button class="kt" title="" id="kakao-link-btn" type="button" onclick="sendKakao();"><span class="sr-only">카카오톡</span></button>-->
+	<!--<button class="ks" title="카카오스토리 공유 새창으로 열림" type="button" title="카카오스토리에 저장하기" onclick="window.open(url_combine_ks, '', 'scrollbars=no, width=600,height=600'); return false;"><span class="sr-only">카카오스토리</span></button>-->
+	<!--<button class="bm" title="즐겨찾기" type="button" onclick="addFavorite();"><span class="sr-only">즐겨찾기</span></button>-->
+	<!--<button class="uc" title="URL 복사" type="button" onclick="copyUrl();"><span class="sr-only">URL 복사</span></button>-->
+	<button class="qr" title="" type="button"  data-toggle="popover-x" data-target="#qrCode" data-trigger="click" data-placement="bottom bottom-left" data-container="body"><i class="xi-qr-code"></i><span class="sr-only">QR코드 팝업</span></button>
+	<button class="qt" title="" type="button"  data-toggle="popover-x" data-target="#quote" data-trigger="click" data-placement="bottom bottom-left" data-container="body"><span class="sr-only">인용 팝업</span></button>
+</div>
+	
 </div>
 
 
+
+<div id="qrCode" class="popover ppopover-info">
+  <div class="arrow"></div>
+  <h3 class="popover-title">
+    <span class="close pull-right" data-dismiss="popover-x">&times;</span>
+    QR(3-3-1)
+  </h3>
+  <div class="popover-content">
+    	<script>
+		document.write(getQrCode());
+	</script>
+  </div>
+</div>
+<div id="quote" class="popover ppopover-info">
+  <div class="arrow"></div>
+  <h3 class="popover-title">
+    <span class="close pull-right" data-dismiss="popover-x">&times;</span>
+    
+  </h3>
+  <div class="popover-content">
+    (kostat-gi.github.io) 3-3-1 (<span id="date"></span>)
+  </div>
+</div>
+<script>	
+var today = new Date();
+document.getElementById('date').innerText = today.toLocaleDateString();
+</script>
 <footer role="contentinfo">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <div id="footerLinks">
+        <div id="footerLinks" style="font-size: large;">
+		
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+		  <!--            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>-->
             
               <li>
                 <a href="/site/contact-us">Contact us</a>
@@ -1154,26 +1247,20 @@ data-event-label="Change to indicator.sources tab"
         </div>
       </div>
     </div>
-    
   </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://kostat-sdg-kor.github.io/sdg-indicators/public/bootstrap-popover-x.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
-
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js" integrity="sha512-9hzM/Gfa9KP1hSBlq3/zyNF/dfbcjAYwUTBWYX+xi8fzfAPHL3ILwS1ci0CTVeuXTGkRAWgRMZZwtSNV7P+nfw==" crossorigin="anonymous"></script>
-
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
@@ -1192,15 +1279,83 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230103010557'></script>
+<script src='/site/assets/js/sdg.js?v=20230103011704'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230103010557"></script><script>
-    new indicatorInit();
-    new accessibilitySwitcher();
+    <script src="/site/assets/js/custom.js?v=20230103011704"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              xAxisLabel: domData.xaxislabel,
+              showData: domData.showdata,
+              graphType: domData.graphtype,
+              startValues: domData.startvalues,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+              graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
+              indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+              precision: domData.precision,
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              decimalSeparator: '',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+
+    var switcher = new accessibilitySwitcher();
+
+
+});
 </script>
+
+
 
 
 </body>
